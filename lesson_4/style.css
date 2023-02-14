@@ -1,0 +1,15 @@
+
+.box {
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    background-color: red;
+}
+
+.box-sizing {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    background-color: red;
+}

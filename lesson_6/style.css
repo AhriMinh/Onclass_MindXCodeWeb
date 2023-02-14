@@ -1,0 +1,28 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #b00000;
+    --text-color-1: #000000;
+    --text-color-2: #2E2E2E;
+    --text-color-3: #18191F
+    --text-color-4: 
+
+}
+
+body {
+    font-family: Poppins;
+}
+
+.title {
+    color: var(--primary-color)
+}
+
+.container {
+    max-width: 1266px;
+    margin: 0 auto;
+}
+

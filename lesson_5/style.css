@@ -1,0 +1,67 @@
+/* Có 2 loại đơn vị đo: 
+Tương đối: %, em, rem, vh, vw
+Tuyệt đối: px,  */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.service {
+    background-color: #fbfbfb;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+
+.service .container {
+    width: 80%;
+    background-color: lightcoral;
+}
+
+.service .section-title {
+    background-color: red;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.service .section-title .title {
+    font-size: 45px;
+    font-weight: 700;
+    font-family: Poppins;
+    text-align: center;
+}
+
+.service .section-title .desc {
+    font-size: 16px;
+    color: rgb(138, 143, 163);
+    font-family: Poppins;
+    width: 33%;
+    margin: 0px auto;
+}
+
+.service .service-content {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    flex-wrap: wrap;
+}
+
+.service .service-content .service-item {
+    max-width: calc((100% - 20px)/3);
+    
+}
+
+@media screen and (max-width: 900px) {
+    .service-content .service-item {
+        max-width: calc((100% - 20px) / 2);
+    }
+
+    .service-title {
+        
+    }
+}
+
+.service-item {}
